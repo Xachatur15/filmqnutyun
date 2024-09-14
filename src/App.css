@@ -2,10 +2,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  text-decoration: none;
 }
 .pagesBtn{
-  width:400px;
+  width:40px;
   margin: 5px;
   height:40px;
   background:white;
@@ -30,4 +29,3 @@ img {
 
   border: 2px solid #fff
 }
-

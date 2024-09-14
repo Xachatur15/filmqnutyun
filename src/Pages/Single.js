@@ -1,19 +1,17 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-
-
 function Single() {
     const img_url = "https://image.tmdb.org/t/p/w500";
-    const id = useParams();
+    const id = useParams()
     const [vidio,setVidio]= useState([])
-    const [single, setSingle] = useState({});
+    const [single, setSingle] = useState({})
     const [actior,setActior]= useState([])
     const api_key = "api_key=9b702a6b89b0278738dab62417267c49";
     useEffect(() => {
         fetch(`https://api.themoviedb.org/3/movie/${id.id}?${api_key}`)
         .then((res) => res.json())
-        .then((res) => setSingle(res));
+        .then((res) => setSingle(res))      
         
    
     },[]);
@@ -78,7 +76,7 @@ function Single() {
           })
         }
       </div>
-     </div>
+     </div> 
      </div>
     </div>
     

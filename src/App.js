@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Card from "./Conponents/Card";
+import Card from "./Components/Card";
 
 const ganre = [
   { id: 28, name: "action" },
